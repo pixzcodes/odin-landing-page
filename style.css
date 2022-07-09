@@ -97,4 +97,45 @@ button{
 
 .quote-section{
     background-color: #8673b4;
+    padding: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text{
+    font-size: 36px;
+}
+.quote-sign{
+    font-size: 24px;
+    align-self: flex-end;
+}
+
+.cta-wrapper{
+    background-color: #440BD4;
+    padding: 100px;
+}
+
+.cta-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+}
+.cta-header{
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.cta-content{
+    margin-bottom: 12px;
+}
+
+.footer{
+    background-color: #E92EFB;
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+    font-size: 18px;
 }
